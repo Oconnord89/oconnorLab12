@@ -1,0 +1,122 @@
+body {
+  font-family: fantasy;
+  background-color: lightskyblue;
+}
+
+h2 {
+  font-family: fantasy;
+  font-size: 30px;
+  color: steelblue;
+  margin-left: 49px;
+}
+
+h3 {
+  color: steelblue;
+  margin-left: 49px;
+}
+
+.box {
+  background-color: lightgrey;
+  box-shadow: 6px 6px 5px steelblue;
+
+}
+
+#buttClr {
+  color: steelblue;
+  background-color: linen;
+  box-shadow: 6px 6px 5px steelblue;
+}
+
+
+
+.sheep {
+  animation: shake 15.2s;
+  perspective: 1000px;
+  opacity: .50;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(131px, 17px, 67px);
+  }
+
+  20%, 90% {
+    transform: translate3d(112px, 10px, 86px);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(164px, 15px, 20px);
+  }
+
+  40%, 60% {
+    transform: translate3d(174px, 0, 30px);
+  }
+}
+
+#sheep {
+margin-left: 89px;
+}
+
+#sheep1 {
+margin-top: 39px;
+}
+
+#sheep2 {
+margin-left: 80px;
+}
+
+#sheep3 {
+margin-top: 45px;
+margin-left: 76px;
+}
+
+#sheep4 {
+margin-left: 89px;
+}
+
+#sheep5 {
+margin-left: 189px;
+}
+
+#sheep6 {
+margin-left: 100px;
+}
+
+#sheep7 {
+margin-top: 80px;
+}
+
+#sheep8 {
+  margin-left: 76px;
+}
+
+#sheep9 {
+  margin-left: 59px;
+  margin-top: 59px;
+}
+
+#sheep10 {
+  margin-left: 167px;
+}
+
+#sheep11 {
+  margin-left: 130px;
+}
+
+#sheep12 {
+  margin-left: 100px;
+}
+
+#sheep13 {
+  margin-left: 150px;
+}
+
+
+
+
+#listStuff {
+  position: absolute;
+  color: steelblue;
+  z-index: 150;
+}

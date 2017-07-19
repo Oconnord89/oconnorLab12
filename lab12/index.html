@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+    <html ng-app="lab12"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To Do App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" type="text/javascript"></script>
+        <script src="Javascript/app.js" type="text/javascript"></script>
+        <link href="CSS/style.css" type="text/css" rel="stylesheet">
+
+          </head>
+    <body ng-controller="ctrl">
+    <div id="head">
+    <h2>When Sheep Fly</h2>
+    <h3>Your number 1 Bucket List App!</h3>
+    </div>
+        <label for="task"></label>
+        <input class="box" type="text" name="task" ng-model="task" placeholder=" Insert task">
+        <input class="box" type="text" ng-model="myFil" placeholder=" Input filter text">
+        <button id="buttClr" type="button" ng-click="addTask(task)">Add Task</button>
+        <ul id="listStuff">
+            <div ng-hide="hide" ng-repeat="task in tasks |filter: myFil">
+                <li>{{task}}
+                  <input ng-model="hide" type="checkbox">
+                </li>
+            </div>
+        </ul>
+        <div class="sheep">
+        <img id="sheep" src="images/sheep.png">
+        <img id="sheep1" src="images/sheep.png">
+        <img id="sheep2" src="images/sheep.png">
+        <img id="sheep3" src="images/sheep.png">
+        <img id="sheep4" src="images/sheep.png">
+        <img id="sheep5" src="images/sheep.png">
+        <img id="sheep6" src="images/sheep.png">
+        <img id="sheep7" src="images/sheep.png">
+        <img id="sheep8" src="images/sheep.png">
+        <img id="sheep9" src="images/sheep.png">
+        <img id="sheep10" src="images/sheep.png">
+        <img id="sheep11" src="images/sheep.png">
+        <img id="sheep12" src="images/sheep.png">
+        <img id="sheep13" src="images/sheep.png">
+
+      </div>
+
+
+
+
+
+    </body>
+</html>
